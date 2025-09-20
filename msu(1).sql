@@ -20,8 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `msu`
 --
-CREATE DATABASE IF NOT EXISTS `msu_Nittaya` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `msu_Nittaya`;
+CREATE DATABASE IF NOT EXISTS `msu` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `msu`;
 
 -- --------------------------------------------------------
 

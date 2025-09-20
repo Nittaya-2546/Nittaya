@@ -3,8 +3,8 @@
 <?php
 	$host = "localhost";
 	$user = "root";
-	$pwd ="";
-	$dbname ="msu";
+	$pwd ="Kim2546";
+	$dbname ="msu_Nittaya";
 	$conn = mysqli_connect($host,$user,$pwd,$dbname);
 	mysqli_query($conn, "SET NAMES utf8");
 	
