@@ -19,7 +19,7 @@
     INNER JOIN faculty AS f 
     ON s.f_id  = f.f_id 
     WHERE (s.s_name LIKE '%{$k}%'  OR s.s_address LIKE '%{$k}%' 
-    OR s.s_id LIKE '%{$k}%' OR s.s_gpax LIKE '%{$k}%' OR f.f_name LIKE '%{$k}%')  ";
+    OR s.s_id LIKE '%{$k}%' OR s.s_gpax LIKE '%{$k}%' OR f.f_name LIKE '%{$k}%')  "; var_dump($sql);exit;
     $rs = mysqli_query($conn,$sql) ;
     while ($data = mysqli_fetch_array($rs)){
         $y = substr ($data['s_id'],0,2);
