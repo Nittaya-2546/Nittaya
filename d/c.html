@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ณิตญา คำสมศรี (ครีม)</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" 
+
+</head>
+
+<body>
+<h1>ณิตญา คำสมศรี(ครีม)</h1>
+<h1>การสร้างฟอร์มรับข้อมูล</h1>
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>การสร้างฟอร์มรับข้อมูล</legend>
+
+<!-- Multiple Radios (inline) -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="tiltle">คำนำหน้าชื่อ</label>
+  <div class="col-md-4"> 
+    <label class="radio-inline" for="tiltle-0">
+      <input type="radio" name="tiltle" id="tiltle-0" value="นาย" checked="checked">
+      นาย
+    </label> 
+    <label class="radio-inline" for="tiltle-1">
+      <input type="radio" name="tiltle" id="tiltle-1" value="นาง">
+      นาง
+    </label> 
+    <label class="radio-inline" for="tiltle-2">
+      <input type="radio" name="tiltle" id="tiltle-2" value="นางสาว">
+      นางสาว
+    </label>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="fullname">ชื่อ - สกุล</label>  
+  <div class="col-md-4">
+  <input id="fullname" name="fullname" type="text" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="age">อายุ</label>  
+  <div class="col-md-4">
+  <input type="number" name="age" min="1" max="99"  placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">วันเดือนปีเกิด</label>  
+  <div class="col-md-4">
+  <input type="date"name="birthday">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class= "col-md-4 control-label" for="coler">สี</label>  
+  <div class="col-md-4">
+  <input type="color"name=">color">
+    
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="C">อาชีพ</label>
+  <div class="col-md-4">
+    <select id="C" name="C" class="form-control">
+      <option value="1">นิสิต</option>
+      <option value="2">แม่บ้าน</option>
+      <option value="2">พ่อบ้าน</option>
+      <option value="2">วินมอไซค์</option>
+    </select>
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="add">ที่อยู่</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="add" name="add"></textarea>
+  </div>
+</div>
+
+<!-- Multiple Checkboxes (inline) -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="food">อาหารที่ชอบ</label>
+  <div class="col-md-4">
+    <label class="checkbox-inline" for="food-0">
+      <input type="checkbox" name="food" id="food-0" value="ต้มยำ">
+      ต้มยำ
+    </label>
+    <label class="checkbox-inline" for="food-1">
+      <input type="checkbox" name="food" id="food-1" value="ส้มตำ">
+      ส้มตำ
+    </label>
+    <label class="checkbox-inline" for="food-2">
+      <input type="checkbox" name="food" id="food-2" value="ยำแซ่บ">
+      ยำแซ่บ
+    </label>
+    <label class="checkbox-inline" for="food-3">
+      <input type="checkbox" name="food" id="food-3" value="มาม่า">
+      มาม่า
+    </label>
+  </div>
+</div>
+
+<!-- Button (Double) -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Submid"></label>
+  <div class="col-md-8">
+    <button id="Submid" name="Submid" class="btn btn-success">ลงทะเบียน</button>
+    <button id="ลงทะเบียน" name="ลงทะเบียน" class="btn btn-danger">reset</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+
+</body>
+</html>
